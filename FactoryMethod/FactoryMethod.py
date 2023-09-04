@@ -13,32 +13,32 @@ class IFactory(ABC):
         pass
 
 
-class Car(IProduct):
+class Apple(IProduct):
     def release(self):
-        print('Создан автомобиль')
+        print('Произведено яблоко')
 
 
-class Truck(IProduct):
+class Banana(IProduct):
     def release(self):
-        print('Создан грузовик')
+        print('Произведен банан')
 
 
-class CarFactory(IFactory):
+class AppleFactory(IFactory):
     def create(self) -> IProduct:
-        return Car()
+        return Apple()
 
 
-class TruckFactory(IFactory):
+class BananaFactory(IFactory):
     def create(self) -> IProduct:
-        return Truck()
+        return Banana()
 
 
 if __name__ == "__main__":
-    creator = CarFactory()
-    car = creator.create()
+    factory = AppleFactory()
+    apple = factory.create()
 
-    creator = TruckFactory()
-    truck = creator.create()
+    factory = BananaFactory()
+    banana = factory.create()
 
-    car.release()
-    truck.release()
+    apple.release()
+    banana.release()

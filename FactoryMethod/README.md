@@ -1,3 +1,5 @@
+![FactoryMethodPattern.png](https://github.com/Dmitry-Peskov/Patterns/blob/main/img/FactoryMethodPattern.png)
+
 **Фабричный метод** (англ. Factory Method), или **виртуальный конструктор** (англ. Virtual Constructor) — 
 порождающий шаблон проектирования, предоставляющий подклассам (дочерним классам, субклассам) интерфейс 
 для создания экземпляров некоторого класса. В момент создания наследники могут определить, какой класс 
