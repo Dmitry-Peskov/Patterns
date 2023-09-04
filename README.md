@@ -1,2 +1,11 @@
-# Patterns
-This repository contains popular design patterns
+# Паттерны проектирования на Python
+Данный репозиторий является результатом моего изучения существующих паттернов проектирования. 
+Он будет дополняться, по ходу изучения новых шаблонов, примерами конкретной реализации.
+
+Под каждый паттерн выделена соответствующая директория, которая содержит файл README.md с теоретической частью и файл с расширением .py 
+в котором приведен пример реализации.
+
+### Содержимое:  
+
+- **[Фабричный метод (Factory Method)](https://github.com/Dmitry-Peskov/Patterns/tree/main/FactoryMethod)**
+- **[Абстрактная фабрика (Abstract Factory)](https://github.com/Dmitry-Peskov/Patterns/tree/main/AbstractFactory)**
